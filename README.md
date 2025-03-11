@@ -1,14 +1,18 @@
 Two Host Podcast Creation from Generic Content
 
 Getting started
+
 This is a streamlit app with a single Python3 file (listVoices2.py).
 Ensure you have the latest streamlit on the runtime laptop/Cloudtop. https://docs.streamlit.io/get-started/installation
+
+
 REQUIRED STEPS
 
 Open for editing the listVoices2.py file
 Change the PROJECT_ID to match yours.
 In your PROJECT_ID, create an API Key for Gemini and create a secret entry in Google Secret Manager to store the API Key.
 Change the secret name in the listVoice.py to correspond to your own Google secret that corresponds to your Google Gemini API Key (from step 3).
+
 
 OPTIONAL
 
